@@ -30,10 +30,6 @@ import {AlbumComponent} from './components/AlbumComponent';
  */
 import {SPOTIFY_PROVIDERS} from './services/SpotifyService';
 
-/*
- * Webpack
- */
-
 
 @Component({
   selector: 'router-app',
@@ -41,7 +37,7 @@ import {SPOTIFY_PROVIDERS} from './services/SpotifyService';
   <router-outlet></router-outlet>
   `
 })
-class RoutesDemoApp {
+export class RoutesDemoApp {
   query: string;
 }
 
